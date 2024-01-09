@@ -1,12 +1,12 @@
 /* added image in div section */
 body {
-    margin: 25px 75px;
-    padding: 10px 15px;
+    /* margin: 25px 75px;
+    padding: 10px 15px; */
 
 
 }
 
-p {
+#hnr{
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -40,18 +40,21 @@ div {
 
 .banner {
     background-image: url("../year.png");
-    width: 1320px;
+    width: 1200px;
     height: 600px;
     /* color: #070211, #07021100; */
+    /* margin-left: 200p; */
+    padding: inherit;
 
 }
 
 /* second div related css */
 .second-bnr {
     background: #FFF;
-    width: 1600px;
-    height: 7335px;
-    padding-right: 400px;
+    width: 1000px;
+    height: auto;
+    /* padding-right: 400px;
+    margin-left: 200px; */
 
 }
 
@@ -96,4 +99,42 @@ div {
 height: 500px;
 flex-shrink: 0;
 padding: 20px 0px 5px 150px;
+}
+.third-bnr{
+ 
+    /* background-image: url("../vector.png"); */
+    width: 1320px;
+    height: 600px;
+    /* margin-left: 75px; */
+}
+.third-bnr img {
+    width: 1290px;
+}
+
+.product{
+    display: flex;
+    margin-left: 120px;
+    
+}
+.product img {
+    width: 300px;
+    margin-left: 30px;
+}
+.foterr{
+    background: #070211;
+    height: 300px;
+    width: 1290px;
+    color: white;
+}
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.social{
+   
+}
+.social img {
+    width: 40px;
+    
 }
