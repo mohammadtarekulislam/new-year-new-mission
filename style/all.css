@@ -2,7 +2,7 @@
 body {
     margin: 25px 75px;
     padding: 10px 15px;
-   
+
 
 }
 
@@ -44,4 +44,56 @@ div {
     height: 600px;
     /* color: #070211, #07021100; */
 
+}
+
+/* second div related css */
+.second-bnr {
+    background: #FFF;
+    width: 1600px;
+    height: 7335px;
+    padding-right: 400px;
+
+}
+
+#off {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: normal; */
+    padding-right: 400px;
+
+
+
+
+}
+
+#ohd {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    padding: inherit;
+}
+
+#ac {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: inherit;
+}
+#sa{
+    width: 802.9px;
+height: 500px;
+flex-shrink: 0;
+padding: 20px 0px 5px 150px;
 }
