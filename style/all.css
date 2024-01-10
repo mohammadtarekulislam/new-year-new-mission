@@ -42,8 +42,7 @@ div {
     background-image: url("../year.png");
     width: 1200px;
     height: 600px;
-    /* color: #070211, #07021100; */
-    /* margin-left: 200p; */
+    
 }
 .banner p {
     color: black;
@@ -74,24 +73,16 @@ margin-top: 50px;
 /* second div related css */
 .second-bnr img {
     margin-left: 90px;
-    /* background: #FFF;
-    width: 1000px;
-    height: auto; */
-    /* padding-right: 400px;
-    margin-left: 200px; */
-
+   
 }
 
 .second-bnr-pers {
     color: #F00;
-    /* text-align: center; */
     font-family: Inter;
     font-size: 88px;
     font-style: normal;
     font-weight: 700;
-    /* line-height: normal; */
-    /* padding-right: 400px; */
-
+   
 
 
 
@@ -144,12 +135,11 @@ margin-top: 50px;
     font-size: 64px;
     font-style: normal;
     font-weight: 900;
-    /* line-height: 88px;  */
+   
     letter-spacing: 7.04px;
-    /* display: block; */
+   
     padding: 0px 0px 0px 10px;
     margin: 25px;
-    /* align-items: center; */
     
 
 }
@@ -189,7 +179,7 @@ padding-top: 50px;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    /* line-height: 30px; 166.667% */
+   
     width: 697px;
     padding: 0px 0px 60px 0px;
 
@@ -197,12 +187,11 @@ padding-top: 50px;
 
 #join {
     color: #FFF;
-    /* text-align: center; */
+ 
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
-    /* line-height: normal; */
+   
     text-transform: uppercase;
  
 }
