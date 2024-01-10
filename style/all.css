@@ -2,11 +2,11 @@
 body {
     /* margin: 25px 75px;
     padding: 10px 15px; */
-
+    background: #FFF;
 
 }
 
-#hnr{
+#hnr {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -16,9 +16,9 @@ body {
     line-height: 95px;
     padding: 140px 18px 2px 4px;
     margin-bottom: 0px;
+  
 }
-
-h3 {
+.first-text {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -44,29 +44,53 @@ div {
     height: 600px;
     /* color: #070211, #07021100; */
     /* margin-left: 200p; */
-    padding: inherit;
-
+}
+.banner p {
+    color: black;
+}
+.third-section{
+    margin-left: 150px;
+}
+.third{
+    display: flex;
+}
+.third-img img{
+width: 200px;
+margin-left: 300px;
+margin-top: 50px;
 }
 
+.third{
+    background-image: url("../vector.png");
+    width: 1300px;
+    color: #FFF;
+       
+}
+.third-section-text{
+    color: #FFF;
+    font-size: 69px;
+    
+}
 /* second div related css */
-.second-bnr {
-    background: #FFF;
+.second-bnr img {
+    margin-left: 90px;
+    /* background: #FFF;
     width: 1000px;
-    height: auto;
+    height: auto; */
     /* padding-right: 400px;
     margin-left: 200px; */
 
 }
 
-#off {
+.second-bnr-pers {
     color: #F00;
-    text-align: center;
+    /* text-align: center; */
     font-family: Inter;
     font-size: 88px;
     font-style: normal;
     font-weight: 700;
     /* line-height: normal; */
-    padding-right: 400px;
+    /* padding-right: 400px; */
 
 
 
@@ -94,47 +118,158 @@ div {
     line-height: normal;
     padding: inherit;
 }
-#sa{
+
+#sa {
     width: 802.9px;
-height: 500px;
-flex-shrink: 0;
-padding: 20px 0px 5px 150px;
-}
-.third-bnr{
- 
-    /* background-image: url("../vector.png"); */
-    width: 1320px;
-    height: 600px;
-    /* margin-left: 75px; */
-}
-.third-bnr img {
-    width: 1290px;
+    height: 500px;
+    flex-shrink: 0;
+    padding: 20px 0px 5px 150px;
 }
 
-.product{
+
+.third-bnr img {
+    width: 1320px;
+}
+
+
+.third-bnr{
+    height: 600px;
+    width: 1350px;
+    background-color: aqua; 
+}
+
+#wtm {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    /* line-height: 88px;  */
+    letter-spacing: 7.04px;
+    /* display: block; */
+    padding: 0px 0px 0px 10px;
+    margin: 25px;
+    /* align-items: center; */
+    
+
+}
+.shedual{
+    background: linear-gradient(180deg, #f4ce86 0%, rgba(249, 189, 241, 0) 100%);
+width: 1300px;
+height: 300px;
+padding-top: 50px;
+      
+}
+
+ .btnn{
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    padding: 5px;
+    
+ }
+ .func{
+    font-family: Inter;
+    font-size: 75px;
+ }
+ .holy{
+   
+    color: #F00;
+ }
+ .products{
+    color: #F00;
+ }
+ .funcc{
+    font-family: Inter;
+    font-size: 60px;
+ }
+#dsa {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 30px; 166.667% */
+    width: 697px;
+    padding: 0px 0px 60px 0px;
+
+}
+
+#join {
+    color: #FFF;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    /* font-weight: 700; */
+    /* line-height: normal; */
+    text-transform: uppercase;
+ 
+}
+
+
+ .detais{
+    display: flex;
+    margin-left: 100px;
+ } 
+
+.detais-img img{
+width: 200px;
+border-radius: 463px;
+border: 15px solid #F00;
+margin-left: 150px;
+} 
+.detais-tt{
+margin-left: 150px;
+}
+.product {
     display: flex;
     margin-left: 120px;
-    
+    margin-top: 30px;
+
 }
+
 .product img {
     width: 300px;
     margin-left: 30px;
 }
-.foterr{
+
+.foterr {
     background: #070211;
-    height: 300px;
+    height: 400px;
     width: 1290px;
     color: white;
 }
-.first-section{
+
+.first-section {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.social{
-   
+
+
+.serchber{
+    font-size: 50px;
+
 }
 .social img {
     width: 40px;
-    
+
+}
+
+ .address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .address p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0px 50px 0px 40px;
+
 }
